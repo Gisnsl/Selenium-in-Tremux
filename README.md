@@ -13,7 +13,7 @@ This project automates the Firefox browser in headless mode using Selenium, whil
 ## Installation
 
 ### Prerequisites
-- You need to have [Termux](https://play.google.com/store/apps/details?id=com.termux) installed on your Android device.
+- You need to have [Termux](https://github.com/termux/termux-app/releases/download/v0.119.0-beta.1/termux-app_v0.119.0-beta.1+apt-android-7-github-debug_universal.apk) installed on your Android device.
 - Ensure that Python and pip are installed in Termux.
 
 ### Step-by-Step Installation
