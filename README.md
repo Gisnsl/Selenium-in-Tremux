@@ -1,7 +1,7 @@
 
 # Selenium with VNC in Termux
 
-This project automates the Firefox browser in headless mode using Selenium, while setting up a VNC server for graphical interface access in Termux. It ensures that the required packages are installed and handles the configuration automatically.
+This project automates the Firefox browser in headless mode or not headless mod by useing VNC , using Selenium, while setting up a VNC server for graphical interface access in Termux. It ensures that the required packages are installed and handles the configuration automatically.
 
 ## Features
 - Automates the Firefox browser with Selenium in headless mode.
