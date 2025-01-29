@@ -1,3 +1,4 @@
+
 # Selenium with VNC in Termux
 
 This project automates the Firefox browser in headless mode using Selenium, while setting up a VNC server for graphical interface access in Termux. It ensures that the required packages are installed and handles the configuration automatically.
@@ -31,56 +32,40 @@ This project automates the Firefox browser in headless mode using Selenium, whil
    pkg install geckodriver
    pkg install tigervnc
    pip install selenium
+   ```
 
-Set up VNC: After installing the necessary packages, set up and run VNC:
+2. **Set up VNC**:
+   After installing the necessary packages, set up and run VNC:
+   ```bash
+   vncserver :1
+   ```
 
-bash
-نسخ الكود
-vncserver :1
-When prompted, create a password for VNC. The default password can be 123456, but you can set your own.
+   When prompted, create a password for VNC. The default password can be `123456`, but you can set your own.
 
-Kill the VNC session: After setting up VNC, you can kill the session with:
+3. **Kill the VNC session**:
+   After setting up VNC, you can kill the session with:
+   ```bash
+   vncserver -kill :1
+   ```
 
-bash
-نسخ الكود
-vncserver -kill :1
-Download the setup files: Clone the repository and navigate to the project directory:
+4. **Download the setup files**:
+   Clone the repository and navigate to the project directory:
+   ```bash
+   git clone https://github.com/Gisnsl/Selenium-in-Tremux.git
+   cd Selenium-in-Tremux
+   ```
 
-bash
-نسخ الكود
-git clone https://github.com/Gisnsl/Selenium-in-Tremux.git
-cd Selenium-in-Tremux
-Run the script: Execute the Python script to run Firefox in headless mode with Selenium:
+5. **Run the script**:
+   Execute the Python script to run Firefox in headless mode with Selenium:
+   ```bash
+   python Test.py
+   ```
 
-bash
-نسخ الكود
-python Test.py
-Access via VNC
-After running the script, you can access the Termux environment via VNC by using any VNC viewer.
-Download the VNC Viewer app for your Android device.
-Use the VNC address: localhost:1.
-Thanks for Everything
-You can join my Telegram channel for updates and support: Join my Telegram Channel
+## Access via VNC
+- After running the script, you can access the Termux environment via VNC by using any VNC viewer.
+- Download the [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) app for your Android device.
+- Use the VNC address: `localhost:1`.
 
-less
-نسخ الكود
-
-### Explanation of Changes:
-- Corrected and cleaned up the installation instructions.
-- Included all necessary steps in a clear sequence.
-- Added a section about how to access Termux via VNC after setting up the server.
-- Provided a direct link to the Telegram channel.
-
-This format will be clean and easy to follow for anyone trying to set up and use your script!
-
-
-
-
-
-
-
-
-
-
-
-يمكن أن تصدر عن ChatGP
+## Thanks for Everything
+You can join my Telegram channel for updates and support:
+[Join my Telegram Channel](https://t.me/+f6t2_zdHrFRjYWE8)
