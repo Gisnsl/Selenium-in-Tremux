@@ -29,8 +29,8 @@ This project automates the Firefox browser in headless mode using Selenium, whil
    pkg install python
    pkg install git
    pkg install curl
-   pkg install geckodriver
-   pkg install tigervnc
+   pkg install geckodriver && pkg install x11-repo
+   pkg install tigervnc && pkg install xwayland xterm
    pip install selenium
    ```
 
@@ -65,6 +65,8 @@ This project automates the Firefox browser in headless mode using Selenium, whil
 - After running the script, you can access the Termux environment via VNC by using any VNC viewer.
 - Download the [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) app for your Android device.
 - Use the VNC address: `localhost:1`.
+
+- Use You Own password.
 
 ## Thanks for Everything
 You can join my Telegram channel for updates and support:
